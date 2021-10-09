@@ -3,33 +3,41 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Source Code Pro', monospace;
-    color: #f2f2f2;
+    color: #000000;
+}
+
+#logo{
+    width: 110px;
+    padding-top: 5px;
+    margin-left: 0.7%;
 }
 
 .topnav {
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
+    border-bottom: #000000 solid ;
 
 }
 
 .topnav a {
     float: right;
     display: block;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
-    padding: 24.5px 23px;
+    padding: 24.5px 27px;
     text-decoration: none;
     font-size: 20px;
+    border-left: #000000 solid 2px;
 }
 
 .topnav a:hover {
-    background-color: #b9e3e7;
-    color: black;
+    background-color: rgb(250, 238, 223);
+    color: rgb(0, 0, 0);
 }
 
 
 .topnav a.active {
-    background-color: #09b3c2;
+    background-color: rgb(226, 172, 102);
     color: white;
 }
 
