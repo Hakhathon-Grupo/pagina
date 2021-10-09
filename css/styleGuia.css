@@ -1,3 +1,52 @@
-.body{
+body{
     background-color: rgb(255, 255, 255);
+}
+
+.contenidoGuia{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    margin: 5%;
+}
+
+.contenidoGuia div{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.contenidoGuia div img{
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contenidoGuia div a{
+    text-decoration: none;
+}
+
+#salud{
+    height: 100vh;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+#telefonos{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+}
+
+#empleo{
+    height: 100vh;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+#estafas{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
 }
