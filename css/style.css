@@ -66,3 +66,23 @@ display: block;
 text-align: left;
 }
 }
+
+
+.btn-primary{
+    background-color: rgb(236, 119, 22) !important;
+    border: rgb(236, 119, 22) !important;
+}
+
+
+/* Hace resferencia a los fondos de color naranja*/
+.fondo{
+background-color:rgba(236, 118, 22, 0.452);
+border-radius: 5px;
+}
+
+
+/* Hace resferencia a los fondos de color verde en las respuestas*/
+.fondo2{
+    background-color:rgba(101, 223, 85, 0.452);
+    border-radius: 5px;
+    }
