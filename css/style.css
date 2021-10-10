@@ -88,3 +88,30 @@ border-radius: 5px;
     background-color:rgba(101, 223, 85, 0.452);
     border-radius: 5px;
     }
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+    color: rgb(226, 172, 102);
+    margin-left: 10px;
+}
+
+.lead{
+    margin-left: 10px;
+}
+
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
