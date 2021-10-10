@@ -44,7 +44,7 @@ body{
 }
 
 #empleo{
-    height: 100vh;
+    height: fit-content;
     width: 100%;
     background-color: #FAD7A0;
 }
@@ -85,6 +85,10 @@ body{
     color: black;
 }
 
+div h1{
+    text-align: center;
+}
+
 @media screen and (max-width: 600px) {
     .contenidoGuia {
         grid-template-columns: auto;
@@ -117,4 +121,5 @@ body{
     }
 
 }
+
 
